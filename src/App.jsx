@@ -1,4 +1,3 @@
-
 import './App.css'
 import  Button  from './components/Eventos/Evento.jsx'
 
@@ -6,9 +5,11 @@ import  Button  from './components/Eventos/Evento.jsx'
 function App() {
   return (
     <>
-    <h1>Vamos la galera</h1>
+    <img className='imagemPerfil' src="..//src/image/perfil.jpeg" alt="minha foto de pefil" />
+    <h1 className='tituloPrincipal'> Olá, me chamo Ted! 🖖🏼</h1>
+    <h2 className='tituloApresentacao'>Sou Ted Junior, apaixonado por tecnologia! Estou me especializando como desenvolvedor frontend com o objetivo de me tornar fullstack, sou formado em Analise e desenvolvimento de sistemas pela Wyden, estou cursando Inglês para acrescentar no meu desenvolvimento pessoal e profissional. Ah! Eu amo futebol e jogar video game. 🚀 </h2>
     
-      <Button/>
+      
     </>
   )
 }
