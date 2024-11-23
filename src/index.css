@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -11,15 +11,6 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
 }
 
 body {
@@ -54,15 +45,20 @@ body {
 	}
 }
 .tituloPrincipal{
+  font-family: Arial, "Helvetica Neue", sans-serif;
   margin-top: 50px;
   font-size: 2.5rem;
   text-align: center;
   color: #e9e9e9;
 }
 .tituloApresentacao{
-  width:550px ;
+  display: inline-flex;
+  width:750px ;
   margin-top: 30px;
+  margin-bottom: 30px;
   font-size: 1rem;
+  right: 10rem;
+  justify-content: center;
   text-align: center;
   color: #fffafa;
 }
@@ -78,4 +74,12 @@ li{
   list-style: none;
   margin: 10px;
   justify-content: space-between;
+}
+ul p{
+  height: 10px;
+  width: 13rem;
+  margin: 0; 
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #fffafa;
 }
