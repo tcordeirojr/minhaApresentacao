@@ -19,18 +19,20 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  
   background: linear-gradient(-45deg, #052010, #254343, #68797b, #b6c3c7,#d3dfe1);
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
 	height: 100vh;
 }
 .imagemPerfil{
-  width: 200px;
-  height: 200px;
+  display: flexbox;
+  position: relative;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
-  overflow: hidden;
+  background-size: cover;
   background-image: url('https://picsum.photos/id/237/200/300');
+  top:10vh;
 }
 
 @keyframes gradient {
@@ -45,11 +47,14 @@ body {
 	}
 }
 .tituloPrincipal{
+  display: flexbox;
+  position: relative;
   font-family: Arial, "Helvetica Neue", sans-serif;
   margin-top: 50px;
   font-size: 2.5rem;
   text-align: center;
   color: #e9e9e9;
+  top: 5vh;
 }
 .tituloApresentacao{
   display: inline-flex;
@@ -62,13 +67,24 @@ body {
   text-align: center;
   color: #fffafa;
 }
-
+.habilidades{
+  display: flexbox;
+  position: relative;
+  font-family: Arial, "Helvetica Neue", sans-serif;
+  margin-top: 50px;
+  font-size: 2rem;
+  text-align: center;
+  color: #e9e9e9;
+  bottom: 5vh;
+}
 .iconesHabilidades{
   display: flex;
+  position: relative;
   justify-content: space-between;
   align-items: center;
   margin-top: 30px;
   flex-wrap: wrap;
+  bottom: 6vh;
 }
 li{
   list-style: none;
