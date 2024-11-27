@@ -1,5 +1,5 @@
 import './App.css'
-import {motion} from 'framer-motion'
+import Projeto from './components/Projetos/Projetos'
 
 
 function App() {
@@ -17,9 +17,10 @@ function App() {
       <li><img src='../src/icons/iconGit.png'></img><h2>GIT</h2><p>Conhecimentos Avançados em controles de versão </p></li>
     </ul>
       <h1>Projetos 👨🏻‍💻</h1>
-      <div>
+      
             
-      </div>
+            <Projeto />
+
     </>
   )
 }
