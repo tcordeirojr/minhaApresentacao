@@ -22,7 +22,8 @@ body {
   background: linear-gradient(-45deg, #052010, #254343, #68797b, #b6c3c7,#d3dfe1);
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
-	height: 100vh;
+	height: 100%;
+  width: auto;
 }
 .imagemPerfil{
   display: flexbox;
@@ -80,11 +81,11 @@ body {
 .iconesHabilidades{
   display: flex;
   position: relative;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-top: 30px;
-  flex-wrap: wrap;
-  bottom: 6vh;
+  right: 2vh;
+  bottom: 8vh;
 }
 li{
   list-style: none;
@@ -98,4 +99,12 @@ ul p{
   font-weight: bold;
   font-size: 0.9rem;
   color: #fffafa;
+}
+.footer{
+  display: flex;
+  position: relative;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+
 }
