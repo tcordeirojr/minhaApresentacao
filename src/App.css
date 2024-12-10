@@ -46,8 +46,15 @@ button{
   color: orange;
   background-color: aqua;
 }
-.Carousel{
+.Carousel img{
   display:flexbox;
   position: relative;
-  justify-content: space-between;  
+  justify-content: center;
+  padding: 10px;  
+}
+.Project{
+  display: flexbox;
+  position: relative;
+  width: 250px;
+  height: 300px;
 }
