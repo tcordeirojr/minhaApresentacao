@@ -4,23 +4,17 @@ import './Footer.css'
 function footer(){
     return(
         <>
+        
         <div className='icon' >
             <a href="http://" target="_blank" rel="noopener noreferrer">
-            <img src="../src/components/Footer/ImageFooter/WhatsappIcon.png" alt="" />
+            <img src="../src/components/Footer/ImageFooter/InstaIcon.png" alt="" />
             </a>
             <a href="http://" target="_blank" rel="noopener noreferrer">
-            <img src="../src/components/Footer/ImageFooter/InstagramIcon.png" alt="" />
+            <img src="../src/components/Footer/ImageFooter/LinkIcon.png" alt="" />
             </a>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-            <img src="../src/components/Footer/ImageFooter/LinkedinIcon.png" alt="" />
+            <a href="https://github.com/tcordeirojr" target="_blank" rel="noopener noreferrer">
+            <img src="../src/components/Footer/ImageFooter/GitIcon.png" alt="" />
             </a>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-            <img src="../src/components/Footer/ImageFooter/GithubIcon.png" alt="" />
-            </a>
-        </div>
-        <div className="footer">
-            <p>Todos os direitos reservados - 2024 Desenvolvido por Ted</p>
-            <p></p>
             
         </div>
         </>

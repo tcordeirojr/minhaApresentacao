@@ -1,29 +1,8 @@
-.footer{
-    display: flex;
-    position:relative;
-    background-color: rgba(225, 231, 234, 0);
-    width: auto;
-    height: 20vh;
-}
-.footer p{
-    display: flex;
-    position: absolute;
-    flex-direction: row;
-    justify-content:center;
-    align-items: flex-end;
-    bottom: 5px;
-    height: 100%;
-    width: 100%;
-    color: white;
-}
 .icon{
     display: flex;
-    position: relative;
-    justify-content:center;
+    position: static;
+    justify-content: center;
     top:100px;
-    height: auto;
+    gap: 20px
 
-}
-
-
-export default
+};
