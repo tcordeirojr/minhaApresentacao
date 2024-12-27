@@ -52,9 +52,4 @@ button{
   justify-content: center;
   padding: 10px;  
 }
-.Project{
-  display: flexbox;
-  position: relative;
-  width: 250px;
-  height: 200px;
-}
+

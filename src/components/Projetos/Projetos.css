@@ -1,0 +1,8 @@
+.Project{
+    display: flexbox;
+    position: relative;
+    width: 250px;
+    height: 200px;
+}
+
+export default
