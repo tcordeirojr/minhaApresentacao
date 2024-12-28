@@ -1,9 +1,9 @@
 .habilidades{
     display: flexbox;
+    font-family: 'Share tech mono';
     position: relative;
-    font-family: Arial, "Helvetica Neue", sans-serif;
     margin-top: 50px;
-    font-size: 2rem;
+    font-size: 2.3rem;
     text-align: center;
     color: #e9e9e9;
     bottom: 5vh;
@@ -19,10 +19,13 @@
 }
 li{
     list-style: none;
+    font-size: 1rem;
+    font-family: "Share tech mono", sans-serif;
     margin: 10px;
     justify-content: space-between;
 }
 ul p{
+    font-family: "Share tech mono", sans-serif;
     height: 10px;
     width: 13rem;
     margin: 0; 

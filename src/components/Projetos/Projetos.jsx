@@ -3,7 +3,7 @@ function Projeto(){
 return(
   <>
   
-  <h1>Projetos 👨🏻‍💻</h1> 
+  <h1 className='Titulo'>Projetos 👨🏻‍💻</h1> 
   <div className='Projeto'>
     <div className='Carousel'>
     <a href="https://tcordeirojr.github.io/landing-page-twd/" target="_blank"><img  className='Project' src='../src/components/Projetos/images/Project1.png' alt="" /></a>
