@@ -1,3 +1,4 @@
+import './Habilidades.css'
 function Habilidades(){
 return (
     <>
