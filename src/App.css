@@ -4,13 +4,6 @@
   padding: 2rem;
   text-align: center;
 }
-
-@media screen and (max-width:767px){
-body{
-  width:100% ;
-  height: auto;
-}
-}
   
   
 
