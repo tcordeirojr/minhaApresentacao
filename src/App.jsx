@@ -1,7 +1,6 @@
 import './App.css'
 import './index.css'
-import Projeto from './components/Projetos/Projetos'
-import Habilidades from './components/Habilidades/habilidades'
+import Habilidades from './components/Habilidades/Habilidades'
 import Presentation from './components/Presentation/Presentation'
 import Social from './components/Social/Social' 
 
