@@ -4,7 +4,7 @@ return (
     <>
 <h1 className='habilidades'>Minhas Habilidades 🧠</h1>
     <ul className='iconesHabilidades'>
-      <li><i class="fa-brands fa-html5"></i><h2>HTML</h2><p>Conhecimentos avançados de estruturação web  </p></li>
+      <li><i className="fa-brands fa-html5"></i><h2>HTML</h2><p>Conhecimentos avançados de estruturação web  </p></li>
       <li><img src='src/components/Habilidades/IconHability/iconCss.png'></img><h2>CSS</h2><p>Conhecimentos avançados em estilização web</p></li>
       <li><img src='src/components/Habilidades/IconHability/iconJs.png'></img><h2>JavaScript</h2><p>Conhecimentos Avaçados em script,funcionalidades e interatividades a sites </p></li>
       <li><img src='src/components/Habilidades/IconHability/iconReact.png'></img><h2>React</h2><p>Conhecimento Básico em criações de UI</p></li>
