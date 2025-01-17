@@ -9,7 +9,10 @@
 .social{
     display: flex;
     position: relative;
-    background-color: white;
     width: 100vw;
     height: 100vh;
+}
+.icon i{
+    font-size: 20px;
+    color: #fffafa;
 }

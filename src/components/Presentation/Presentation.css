@@ -6,7 +6,7 @@
     height: 250px;
     border-radius: 50%;
     background-size: cover;
-    background-image: url('https://picsum.photos/id/237/200/300');
+    background-image: url('/src/assets/imagem.jpg');
     top:10vh;
 }
 .tituloPrincipal{
@@ -35,8 +35,9 @@
     .imagemPerfil { 
         display:flex;
         position: relative;
+        justify-content: center;
         top: 25px;
-        left: 17vw;
+        left: 10vw;
         height: 200px;
         width: 200px;
     }

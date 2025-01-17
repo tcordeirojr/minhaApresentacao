@@ -51,4 +51,10 @@ ul p{
         font-size: 25px;
         bottom: 55px;
     }
+    .iconesHabilidades i{
+        font-size: 50px;
+    }
+    .iconesHabilidades p {
+        font-size: 12px
+    }
     }
