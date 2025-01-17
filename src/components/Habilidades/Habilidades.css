@@ -16,7 +16,6 @@
     margin-top: 30px;
     right: 2vh;
     bottom: 8vh;
-    font-size: large;
 }
 li{
     list-style: none;
@@ -34,3 +33,22 @@ ul p{
     font-size: 0.9rem;
     color: #fffafa;
 }
+@media screen and (max-width:767px) and (min-width:320px)
+{
+    .habilidades{
+        display: flex;
+        position: relative;
+        font-size: 25px;
+        left: 30px;
+    }
+
+    .iconesHabilidades{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-rows: repeat(2, 230px);
+        gap:5px;
+        width:250px;
+        font-size: 25px;
+        bottom: 55px;
+    }
+    }
