@@ -44,17 +44,41 @@ ul p{
 
     .iconesHabilidades{
         display: grid;
-        grid-template-columns: repeat(2, 2fr);
-        grid-template-rows: repeat(2, 230px);
-        gap:5px;
+        grid-template-columns:repeat(2, 1fr) ;
+        gap: 10px;
         width:250px;
         font-size: 25px;
         bottom: 55px;
+        margin: 2px;
     }
     .iconesHabilidades i{
         font-size: 50px;
     }
-    .iconesHabilidades p {
-        font-size: 12px
+    .iconesHabilidades  p {
+        font-size: 12px;
+        position: relative;
+        width: 100px;
+        text-align: center;
+        /* left:15px; */
+    }
+    li:last-child {
+        position: relative;
+        left: 50%;
+        gap: 10px;
+        top: 25px;
+        
+    }
+    p:last-child{
+        position: relative;
+        justify-content: center;
+        align-items: start;
+        left: 8%;
+    }
+    li:hover{
+        color: rgb(51, 3, 134);
+        
+    }
+    p:hover{
+        color: rgb(51, 3, 134);
     }
     }
