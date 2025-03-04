@@ -1,35 +1,103 @@
 @import '/src/Fonts/Fonts.css'; 
-.imagemPerfil{
-    display: flexbox;
+.menu{
+    display: flex;
     position: relative;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    background-size: cover;
-    background-image: url('/src/assets/imagem.jpg');
-    top:10vh;
+    width: 100px;
+    height: 100px;
+}
+.menuItems {
+    display: flex;
+    position: absolute;
+    width: 450px;
+    height: 100px;
+    left: 950px;
+    flex-direction: row;
+    padding: 0;
+    bottom: 5px;   
+    text-align: center; 
+    font-family: "Ibm Plex Mono", sans-serif;
+    gap:20px;
+    
+    
+}
+.menuItems li{
+    display: flex;
+    position: relative;
+    color:#eaeaea;
+    font-family: "Ibm Plex Mono", sans-serif;  
+}
+.menuItems li a{
+    color:#eaeaea;
+    text-decoration: none;
+    font-family: "Ibm Plex Mono", sans-serif;
+}
+.menuItems li a:hover{
+    color:rgba(255, 255, 255, 0.5) ;
+    transition: all 0.3s ease-in-out;
+}
+
+.textoPrincipal{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 1000px;
+    height: 500px;
+    justify-content: center;
+    align-content: start;
+    text-align: end;
+    font-family: "Ibm Plex Mono", sans-serif;
 }
 .tituloPrincipal{
-    display: flexbox;
+    display: flex;
+    justify-content: center;
     position: relative;
-    font-family: "Share tech mono", sans-serif;
-    margin-top: 50px;
-    font-size: 2.7rem;
+    font-family: "Ibm Plex Mono", sans-serif;
+    height: 20px;
+    font-size: 60px;
     text-align: center;
     color: #e9e9e9;
-    top: 5vh;
+    
+    /* background-color:black; */
+    font-weight: 200;
 }
+.subTituloPrincipal{
+display: flexbox;
+position: relative;
+font-family: "Ibm Plex Mono", sans-serif;
+font-size: 30px;
+text-align: center;
+color: #e9e9e9;
+/* background-color:black; */
+font-weight: 100;
+}
+
+.textoApresentacao{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 200px;
+    
+    top: 1000px;
+    font-family: "Ibm Plex Mono", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: #e9e9e9
+}
+
 .tituloApresentacao{
-    display: inline-flex;
+    display: flex;
+    
+    position:absolute;
     width:750px ;
-    font-family: "Share tech mono", sans-serif;
+    font-family: "Ibm Plex Mono", sans-serif;
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 1.2rem;
-    right: 10rem;
+    
+    font-weight: 100;
     justify-content: center;
     text-align: center;
-    color: #fffafa;
+    color: #eaeaea;
 }
 @media screen and (max-width:767px) and (min-width:320px){
     .imagemPerfil { 

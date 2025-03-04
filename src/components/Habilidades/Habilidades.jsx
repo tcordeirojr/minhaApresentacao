@@ -2,6 +2,7 @@ import './Habilidades.css'
 function Habilidades() {
   return (
     <>
+    <div id='habilidades'></div>
       <h1 className='habilidades'>Minhas Habilidades 🧠</h1>
       <ul className='iconesHabilidades'>
         <li className='unit '>

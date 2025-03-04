@@ -1,5 +1,5 @@
 .habilidades{
-    display: flexbox;
+    display: flex;
     font-family: 'Share tech mono';
     position: relative;
     margin-top: 50px;
@@ -18,7 +18,7 @@
     bottom: 8vh;
 }
 li{
-    list-style: none;
+    list-style: flex;
     font-size: 1rem;
     font-family: "Share tech mono", sans-serif;
     margin: 10px;

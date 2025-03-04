@@ -1,11 +1,25 @@
 import './Presentation.css'
-function Presentation(){
-    return(
-    <>
-    <img className='imagemPerfil' src="../src/assets/image/foto.png" alt="foto de perfil"/>
-    <h1 className='tituloPrincipal'> Olá, me chamo Ted! 🖖🏼</h1>
-    <h2 className='tituloApresentacao'>Sou de Belém do Pará, apaixonado por açaí e tecnologia! Estou me especializando como desenvolvedor frontend com o objetivo de me tornar fullstack, sou formado em Análise e desenvolvimento de sistemas pela Wyden, estou cursando Inglês para acrescentar no meu desenvolvimento pessoal e profissional. Ah! Eu amo futebol e jogar video games.   🚀 </h2>
-    </>
+function Presentation() {
+    return (
+        <>
+            <div className='menu'>
+                <ul className='menuItems'>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+            <div className='textoPrincipal'>
+                <h1 className='tituloPrincipal'> {"<Ted Cordeiro Junior/>"} </h1>
+                <p className='subTituloPrincipal'>Desenvolvedor Frontend</p>
+            </div>
+            <div id='sobre' className='textoApresentacao'>
+                <h1 className='TituloSobre'>Sobre</h1>
+                <h2 className='tituloApresentacao'>Sou de Belém do Pará! Sou formado em Análise e desenvolvimento de sistemas pela Wyden, estou cursando Inglês para acrescentar no meu desenvolvimento pessoal e profissional. Ah! Eu amo futebol e jogar video games. 🚀
+                </h2>
+            </div>
+        </>
     )
 }
 
