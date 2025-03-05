@@ -1,7 +1,8 @@
+import "./Footer.css"
 function Footer(){
     return(
         <>
-        <div className="Footer">
+        <div className="footer">
             <ul>
                 <li><a>tedcordeirojr@gmail.com</a></li>
                 <li><a href="mailto:tedcordeirojrdevelopeer@gmail.com" target="blank">tedcordeirojr@gmail.com</a></li>

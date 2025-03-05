@@ -8,17 +8,15 @@
 .menuItems {
     display: flex;
     position: absolute;
-    width: 450px;
-    height: 100px;
-    left: 950px;
+    width: 440px;
+    height: 80px;
+    left: 850px;
+    justify-content: end;
     flex-direction: row;
     padding: 0;
-    bottom: 5px;   
-    text-align: center; 
+    bottom: 35px;   
     font-family: "Ibm Plex Mono", sans-serif;
     gap:20px;
-    
-    
 }
 .menuItems li{
     display: flex;
@@ -40,11 +38,11 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    width: 1000px;
-    height: 500px;
+    width: 800px;
+    height: 200px;
     justify-content: center;
-    align-content: start;
-    text-align: end;
+    left: 230px;
+    top: 130px;
     font-family: "Ibm Plex Mono", sans-serif;
 }
 .tituloPrincipal{
@@ -56,8 +54,6 @@
     font-size: 60px;
     text-align: center;
     color: #e9e9e9;
-    
-    /* background-color:black; */
     font-weight: 200;
 }
 .subTituloPrincipal{
@@ -67,7 +63,6 @@ font-family: "Ibm Plex Mono", sans-serif;
 font-size: 30px;
 text-align: center;
 color: #e9e9e9;
-/* background-color:black; */
 font-weight: 100;
 }
 

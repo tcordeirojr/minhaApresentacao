@@ -1,12 +1,15 @@
 .habilidades{
     display: flex;
-    font-family: 'Share tech mono';
+    font-family: 'ibm Plex Mono', sans-serif;
     position: relative;
     margin-top: 50px;
     font-size: 2.3rem;
     text-align: center;
+    justify-content: center;
     color: #e9e9e9;
-    bottom: 5vh;
+    top: 260px;
+    left: 15px;
+    font-weight: 200;
 }
 .iconesHabilidades{
     display: flex;
@@ -15,7 +18,7 @@
     align-items: center;
     margin-top: 30px;
     right: 2vh;
-    bottom: 8vh;
+    top: 600px;
 }
 li{
     list-style: flex;
@@ -81,4 +84,11 @@ ul p{
     p:hover{
         color: rgb(51, 3, 134);
     }
+    }
+
+
+    .slide-item{
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
     }

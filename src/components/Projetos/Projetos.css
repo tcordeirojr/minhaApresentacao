@@ -1,0 +1,9 @@
+.tituloProjetos {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    left: 75px;
+    font-family: "Ibm Plex Mono", sans-serif;
+    top: 500px;
+}
