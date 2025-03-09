@@ -2,10 +2,10 @@
     display: flex;
     position: relative;
     width: 1000px;
-    
     justify-content: center;
+    left: 150px;
     align-items: start;
-    bottom: 1060px;
+    bottom: 2150px;
     gap: 20px;
     
 

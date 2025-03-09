@@ -2,14 +2,15 @@ import './Habilidades.css'
 import  { useState, useEffect } from 'react';
 import { EffectCoverflow } from 'swiper/modules';
 import { Swiper, SwiperSlide  } from "swiper/react";
-import 'swiper/css/effect-coverflow';
+import 'swiper/css/effect-cards';
+
 
 
   function Habilidades() {
         const [slidePerView, setSlidePerView] = useState(2);
         const data = [
-            {id:'1', image: 'https://placehold.co/100x00'},
-            {id:'2', image: 'https://img.icons8.com/ios-filled/100/html-5--v1.png'},
+            {id:'1', image: 'https://img.icons8.com/ios-filled/100/html-5--v1.png'},
+            {id:'2', image: 'https://img.icons8.com/color/48/css3.png'},
             {id:'3', image: 'https://img.icons8.com/ios-filled/100/html-5--v1.png'},
             {id:'4', image: 'https://img.icons8.com/ios-filled/100/html-5--v1.png'},
             {id:'5', image: 'https://img.icons8.com/ios-filled/100/html-5--v1.png'},
@@ -19,7 +20,7 @@ import 'swiper/css/effect-coverflow';
           if (window.innerWidth < 720) {
             setSlidePerView(1);
           }else{
-            setSlidePerView(2);
+            setSlidePerView(4);
           }
         }
         handleResize();
@@ -30,16 +31,18 @@ import 'swiper/css/effect-coverflow';
       },[])
 
     return(
-            <div className="container">
-                <h1 className="title">slide com react js</h1>
+            <div id='habilidades' className="container">
+                <h1 className="title">Habilidades</h1>
             
                 <Swiper
                     modules={[EffectCoverflow]}
-                    effect='coverflow'
+                    effect={'efect-coverflow'}
                     className="swiper"
                     slidesPerView={slidePerView}
-                    pagination={{clickable: true}}
                     navigation
+                    scrollbar={{
+                      hide: true,
+                    }}
                 >
 
 
