@@ -1,4 +1,7 @@
-/* .habilidades{
+
+
+/*
+.habilidades{
     display: flex;
     font-family: 'ibm Plex Mono', sans-serif;
     position: relative;
@@ -91,12 +94,13 @@ ul p{
         display: flex;
         position: relative;
 
-        width: 100px;
-        height: 100px;
+        width: 250px;
+        height: 250px;
         object-fit: cover;
         justify-content: center;
         align-items: center;
         margin: 0 auto;
+        background-color: aquamarine;
         
     }
 
@@ -126,10 +130,13 @@ ul p{
     .swiper{
         display: flex;
         position: relative;
-        width: 1585px;
-        height: 350px;
+        width: 250px;
+        height: 250px;
         justify-content: center;
         align-items: end;
         overflow: hidden;
         background-color: blueviolet;
+    }
+    .swiper img{
+        width: 100px;
     }
