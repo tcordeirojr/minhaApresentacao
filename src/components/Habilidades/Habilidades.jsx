@@ -9,12 +9,13 @@ import 'swiper/css/effect-cards';
   function Habilidades() {
         const [slidePerView, setSlidePerView] = useState(2);
         const data = [
-            {id:'1', image: 'https://img.icons8.com/ios-filled/100/html-5--v1.png'},
+            {id:'1', image: 'https://img.icons8.com/color/48/html-5--v1.png'},
             {id:'2', image: 'https://img.icons8.com/color/48/css3.png'},
-            {id:'3', image: 'https://img.icons8.com/ios-filled/100/html-5--v1.png'},
-            {id:'4', image: 'https://img.icons8.com/ios-filled/100/html-5--v1.png'},
-            {id:'5', image: 'https://img.icons8.com/ios-filled/100/html-5--v1.png'},
-        ]    
+            {id:'3', image: 'https://img.icons8.com/color/48/javascript--v1.png'},
+            {id:'4', image: 'https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png'},
+            {id:'5', image: 'https://img.icons8.com/color/48/git.png'},
+            {id:'6', image: 'https://img.icons8.com/color/48/tailwindcss.png'},
+          ]    
       useEffect(() => {
         function handleResize() {
           if (window.innerWidth < 720) {

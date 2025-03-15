@@ -21,7 +21,7 @@ body {
   min-height: 100vh;
   /* background-color: #2a2a2a; */
 	height: 100%;
-  width: auto;
+  width: 1400px;
 }
 
 @media screen and (max-width: 767px){
