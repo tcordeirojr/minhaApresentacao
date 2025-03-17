@@ -1,5 +1,55 @@
 
+.habilidades{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transform: translateX(-800px);
+    opacity: 0;
+    background-color: blueviolet;
+    width: 1585px;
+    height:750px;
+    
+    
+}
+.containerHabilidades{
+    display: grid;
+    grid-template-columns: repeat(3, 300px) ;
+    grid-template-rows: repeat(2, 200px) ;
+    position: relative;
+    top: 100px;
+    left: 325px;
+    gap: 10px;
+    align-items: center;
+    list-style: none;
+    width: 900px;
+    height: 420px;
+    background-color: black;
+}
+.containerHabilidades li{
+    border-radius: 10px;
+    z-index: 1000;
+}
+.containerHabilidades .unit:hover{
+    background-color: rgba(255, 255, 255, 0.2) ;;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+    
+}
+.unit{
+    width: 220px;
+    padding: 10px;
+    font-weight: lighter;
+    font-family: 'ibm plex mono', serif;
+    background-color: blue;
 
+}
+.habilidades1{
+    position: relative;
+    font-size: 60px;
+    font-family: 'ibm plex mono',sans-serif;
+    font-weight: 200;
+    top: 40px;
+}
 /*
 .habilidades{
     display: flex;

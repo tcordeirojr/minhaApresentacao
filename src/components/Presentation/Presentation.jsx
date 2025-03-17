@@ -10,9 +10,10 @@ function Presentation() {
             opacity: 1,
             scrollTrigger: {
                 trigger: '.textoApresentacao',
-                start: 'top 750px',
-                end: 'bottom 600px',
+                start: 'top 500px',
+                end: 'bottom 850px',
                 scrub: true,
+                
             }
         })
         return () => {
