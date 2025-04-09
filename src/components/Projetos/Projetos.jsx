@@ -55,10 +55,10 @@ function Projetos() {
                 onAutoplayTimeLeft={onAutoplayTimeLeft}
                 className="mySwiper"
             >
-                <SwiperSlide><a href="https://tcordeirojr.github.io/previsao-do-tempo/" target='_blank'><img src="src/assets/Projetos/previsaoDoTempo.png" alt='' /></a></SwiperSlide>
-                <SwiperSlide><a href="https://tcordeirojr.github.io/Calculadora/" target="_blank"><img src="src/assets/Projetos/calculadora.png" alt="" /> </a></SwiperSlide>
-                <SwiperSlide><a href="https://tcordeirojr.github.io/formulario-Dev-quest/" target="_blank" rel=""><img src="src/assets/Projetos/formulario.png" alt="" /></a></SwiperSlide>
-                <SwiperSlide><a href="https://tcordeirojr.github.io/pokemon-card/" target="_blank" rel=""><img src="src/assets/Projetos/pokemon.png" alt="" /></a></SwiperSlide>
+                <SwiperSlide><a href="https://tcordeirojr.github.io/previsao-do-tempo/" target='_blank'><img src="projetos/previsao-do-tempo.png" alt='' /></a></SwiperSlide>
+                <SwiperSlide><a href="https://tcordeirojr.github.io/Calculadora/" target="_blank"><img src="projetos/calculadora.png" alt="" /> </a></SwiperSlide>
+                <SwiperSlide><a href="https://tcordeirojr.github.io/formulario-Dev-quest/" target="_blank" rel=""><img src="projetos/formulario.png" alt="" /></a></SwiperSlide>
+                <SwiperSlide><a href="https://tcordeirojr.github.io/pokemon-card/" target="_blank" rel=""><img src="projetos/pokemon.png" alt="" /></a></SwiperSlide>
                 <div className="autoplay-progress" slot="container-end">
                     <svg viewBox="0 0 48 48" ref={progressCircle}>
                         <circle cx="24" cy="24" r="20"></circle>

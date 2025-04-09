@@ -1,11 +1,13 @@
 import './Contato.css' 
 
 function Contato() {
-    return(
-      <>
+  return(
+    <>
         <div id="contato" className="contato">
           <h1>Contato</h1>
-          <form>
+        </div>
+        <div className='cardForm'>  
+          <form className='form'>
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required/>
 
@@ -20,6 +22,5 @@ function Contato() {
         </div>
       </>      
     )
-}
-
-export default Contato
+  };
+  export default Contato
