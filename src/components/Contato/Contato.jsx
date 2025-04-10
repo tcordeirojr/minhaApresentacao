@@ -17,7 +17,7 @@ function Contato() {
             <label for="mensagem">Mensagem:</label>
             <textarea id="mensagem" name="mensagem" required></textarea>
 
-            <input type="submit" value="Enviar"/>
+            <input onClick={() => alert('Mensagem enviada com sucesso!')} className='botao' type="submit" value="Enviar"/>
           </form>
         </div>
       </>      
