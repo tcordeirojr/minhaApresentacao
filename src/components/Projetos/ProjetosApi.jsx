@@ -6,7 +6,7 @@ import 'swiper/css/pagination';
 import '../Projetos/Projetos.css';
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 
-export default function projetos() {
+export default function projetosApi() {
   return (
     <>
       <Swiper

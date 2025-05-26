@@ -2,6 +2,7 @@ import './Presentation.css'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useLayoutEffect } from 'react'
+
 function Presentation() {
     useLayoutEffect(() => {
         gsap.registerPlugin(ScrollTrigger);
@@ -10,9 +11,10 @@ function Presentation() {
             opacity: 1,
             scrollTrigger: {
                 trigger: '.textoApresentacao',
-                start: 'top 500px',
-                end: 'bottom 850px',
+                start: 'top 700px',
+                end: 'bottom 1440px',
                 scrub: true,
+                markers:true,
                 
             }
         })
@@ -32,15 +34,22 @@ function Presentation() {
                     <li><a href="#contato">Contato</a></li>
                 </ul>
             </div>
-            <section >
+            <div className="buttonsAcess">
+                <button className='buttonProject'><li><a href="#projetos">Projetos</a></li></button>
+                <button className="buttonContact">
+                    <li><a href="#contato">Contato</a></li>
+                </button>
+            </div>
+            <section className='containerInicio'>
                 <div id='inicio' className='textoPrincipal'>
                     <h1 className='tituloPrincipal'> {"<Ted Cordeiro Junior/>"} </h1>
                     <p className='subTituloPrincipal'>Desenvolvedor Frontend</p>
+                    
                 </div>
             </section>
             <div id='sobre' className='textoApresentacao'>
-                <h1 className='tituloSobre'>Sobre</h1>
-                <h2 className='tituloApresentacao'>Sou de Belém do Pará! Sou formado em Análise e desenvolvimento de sistemas pela Wyden, estou cursando Inglês para acrescentar no meu desenvolvimento pessoal e profissional. Ah! Eu amo futebol e jogar video games. 🚀
+                <h1 className='tituloSobre'>Sobre Mim</h1>
+                <h2 className='tituloApresentacao'>Sou formado em Análise e desenvolvimento de sistemas pela Wyden, estou cursando Inglês para acrescentar no meu desenvolvimento pessoal e profissional. 🚀
                 </h2>
             </div>
         </>
