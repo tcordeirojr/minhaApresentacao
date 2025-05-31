@@ -1,11 +1,11 @@
 .icon{
     display: flex;
-    position: relative;
+    position: fixed;
     width: 1000px;
     justify-content: center;
-    left: 280px;
+    left: 740px;
     align-items: start;
-    top: 500px;
+    bottom: 50px;
     gap: 20px;
     
 

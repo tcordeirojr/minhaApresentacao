@@ -1,3 +1,4 @@
+import { tr } from 'framer-motion/client';
 import './Presentation.css'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -11,10 +12,10 @@ function Presentation() {
             opacity: 1,
             scrollTrigger: {
                 trigger: '.textoApresentacao',
-                start: 'top 700px',
-                end: 'bottom 1440px',
+                start: 'top 1000px',
+                end: 'bottom 1400px',
                 scrub: true,
-                markers:true,
+            
                 
             }
         })
