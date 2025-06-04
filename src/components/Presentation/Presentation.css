@@ -18,7 +18,7 @@
     flex-direction: row;
     padding: 0;
     left: 980px;
-    bottom: 1350px;
+    bottom: 1340px;
     font-family: "Ibm Plex Mono", sans-serif;
     gap: 30px;
     
@@ -26,7 +26,6 @@
 .menuItems li{
     display: flex;
     position: relative;
-    
     font-family: "Ibm Plex Mono", sans-serif;  
     left: 1060px;
     align-items: center;

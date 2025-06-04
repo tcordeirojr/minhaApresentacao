@@ -5,8 +5,9 @@
     justify-content: center;
     left: 740px;
     align-items: start;
-    bottom: 50px;
+    bottom: 110px;
     gap: 20px;
+    z-index: 1000;
     
 
 }

@@ -1,99 +1,51 @@
 
 .habilidades{
     justify-content: center;
-    align-items: center;
     position: relative;
-    transform: translateX(-800px);
-    opacity: 0;
-    width: 1585px;
-    height:750px;
-    top: 500px;
+    display: flex;
+    width: 1900px;
+    height:500px;
+    bottom: 150px;
+    left: 300px;
+    
     
 }
-.containerHabilidades{
-    display: grid;
-    grid-template-columns: repeat(3, 300px) ;
-    grid-template-rows: repeat(2, 200px) ;
-    position: relative;
-    top: 110px;
-    left: 325px;
-    gap: 10px;
-    align-items: center;
-    list-style: none;
-    width: 900px;
-    height: 420px;
-}
-.containerHabilidades li{
-    border-radius: 10px;
-    z-index: 1000;
-}
-.containerHabilidades .unit:hover{
-    background-color: rgba(255, 255, 255, 0.2) ;;
-    transition: all 0.5s ease-in-out;
-    border-radius: 10px;
-    
-}
-.unit{
-    width: 220px;
-    padding: 10px;
-    font-weight: lighter;
-    font-family: 'ibm plex mono', serif;
-    
-}
-.habilidades1{
-    position: relative;
-    font-size: 60px;
-    font-family: 'ibm plex mono',sans-serif;
+.habilidades h1{
+    color: #e9e9e9;
+    font-family: 'ibm plex mono', monospace;
     font-weight: 200;
-    top: 40px;
+    font-size: 50px;
+    position: absolute;
+    top: 20px;
+    left: 800px;
 }
-    .slide-item{
-        display: flex;
-        position: relative;
-
-        width: 250px;
-        height: 250px;
-        object-fit: cover;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        background-color: aquamarine;
-        
-    }
-
-    .swiper-button-prev::after, .swiper-button-next::after{
-        color: #e9e9e9;
-    }
-
-    .title{
-        display: flex;
-        position: relative;
-        font-family: 'ibm Plex Mono', sans-serif;
-        font-size: 60px;
-        text-align: center;
-        justify-content: center;
-        color: #e9e9e9;
-        width: 1585px;
-        font-weight: 200;
-    }
-    .container{
-        display: flex;
-        flex-wrap: wrap;
-        width: 1585px;
-        height: 750px;
-        position: relative;
-        background-color: rgb(37, 74, 2);
-    }
-    .swiper{
-        display: flex;
-        position: relative;
-        width: 250px;
-        height: 250px;
-        justify-content: center;
-        align-items: end;
-        overflow: hidden;
-        background-color: blueviolet;
-    }
-    .swiper img{
-        width: 100px;
-    }
+.conteudo-habilidades li{
+    list-style: none;
+    color: #e9e9e9;
+    border-radius:20px ;
+    background-color: #312f2f;
+    position: relative;
+    flex-direction: row;    
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 25px;
+    gap: 20px;
+    padding: 10px;
+    margin: 10px;
+    font-size:18px ;
+    font-family: 'ibm plex mono', monospace;
+}
+.conteudo-habilidades{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 15px;
+}
+.conteudo-habilidades li:hover{
+    background-color: #4a4747;
+    transition: 0.3s;
+    cursor: pointer;
+}

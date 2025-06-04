@@ -5,18 +5,20 @@
     bottom: 380px;
     justify-content: center;
     align-items:center;
+    left: 450px;
     
 }
 .contato h1{
     display: flex;
     position: relative;
     font-family: "Ibm Plex Mono", sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
     justify-content: center;
     color: #e9e9e9;
-    width: 1585px;
+    width: 1900px;
     font-weight: 200;
+    top: 100px;
 }
 .cardForm{
     display: flex;
@@ -24,10 +26,11 @@
     width: 600px;
     height: 400px;
     background-color: rgba(255, 255, 255, 0.2) ;
-    bottom: 350px;
-    left: 480px;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    bottom: 250px;
+    left: 930px;
+    border-radius: 20px;
+    /* border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px; */
     border: 1px solid #e9e9e9;
 }
 .form{
