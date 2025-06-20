@@ -1,26 +1,179 @@
 @import '/src/Fonts/Fonts.css'; 
-.menu{
+
+
+
+@media screen and (max-width: 768px) {
+    .Hamburger {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        padding: 0 15px;
+        /* border-radius: 4px; */
+        line-height: 55px;
+        background-color: transparent;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        top: 100px;
+        left: 550px;
+        z-index: 1000;
+    }
+    span{
+        width: 50px;
+        height: 3px;
+        left: -20px;
+        bottom: 15px;
+        background-color: #e9e9e9;
+        position: relative;
+        display: inline-block;
+        border-radius: 2px;
+        transition: all ease 0.3s;
+    }
+    span::before{
+        position: absolute;
+        content: '';
+        width:100%;
+        height: 3px;
+        background-color: #e9e9e9;
+        top: -13px;
+        left: 0;
+        transition: all ease 0.3s;
+    }
+    span::after{
+        position: absolute;
+        content: '';
+        width:100%;
+        height: 3px;
+        background-color: #e9e9e9;
+        top: 13px;
+        left: 0;
+        transition: all ease 0.3s;
+    
+    }
+    .open span{
+        background-color: transparent;
+        transition: all ease 0.3s;
+    }
+    .open span::before{
+        transform: rotate(-45deg) translateX(-8px) translateY(10px);
+    }
+    .open span::after{
+        transform: rotate(45deg) translateX(-8px) translateY(-10px);
+        
+    }
+    .open{
+        
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        list-style: none;
+        
+        width: 200px;
+    }
+   
+    .menu .open ul{
+        display: block;
+        position: relative;
+        font-family: "Ibm Plex Mono", sans-serif;
+        font-size: 20px;
+        text-align: center;
+        justify-content: center;
+        color: #e9e9e9;
+        width: 100%;
+        height: 50px;
+        
+        align-items: center;
+        background-color: aqua;
+    }
+    .menuItems::before{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(197, 15, 15, 0.5);
+        z-index: 2000;
+    }
+}
+
+     /* .hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 2000;
+}
+.menuItems {
+    display: flex;
+}
+.menuItems .open{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(197, 15, 15, 0.5);
+}
+
+.hamburger .bar {
+  width: 30px;
+
+  height: 4px;
+  background: #e9e9e9;
+  margin: 4px 0;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+@media (max-width: 767px) {
+  .hamburger {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+} */
+
+/* .menu{
     z-index: 1000;  
     display: flex;
     position:fixed;
-    width: 1900px;
-    height: 1px;
-    bottom: 100px;  
-    
+    max-width: 1440px;
+    height: 30px;
+    width: 100%;
+    top: 20px;  
+    left: 80px;
+    margin: 0 auto; 
+    justify-content: center;  
 }
 .menuItems {
     
     
-    display: flex;
+    display: none;
     position: relative;
-    width: 1900px;
-    height: 50px;
+    max-width: 2560px;
+    height: 30px;
     flex-direction: row;
     padding: 0;
-    left: 980px;
-    bottom: 1340px;
+    list-style: none;
+    left: 100px;
+    margin: 0 auto;
+    bottom: 10px;
     font-family: "Ibm Plex Mono", sans-serif;
     gap: 30px;
+    
     
 }
 .menuItems li{
@@ -62,13 +215,14 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    width: 1900px;
+    width: 1201px;
     height: 1800px;
     left:10px;
     bottom:50px;
     justify-content: center;
     align-items: center;
     font-family: "Ibm Plex Mono", sans-serif;
+    
     
     
 }
@@ -133,7 +287,7 @@
     color: #e9e9e9;
     /* top: 50px; */
     /* left: 15px; */
-    font-weight: 200;
+    /* font-weight: 200;
     width: 1585px;
     height: 750px;
     top: 100px;
@@ -147,7 +301,7 @@
     font-family: "Ibm Plex Mono", sans-serif;
     /* margin-top: 30px;
     margin-bottom: 30px; */
-    font-size: 1.2rem;
+    /* font-size: 1.2rem;
     font-weight: 100;
     justify-content: center;
     text-align: center;
@@ -229,4 +383,4 @@
         padding-top: 20px;
     }
 }
-
+  */

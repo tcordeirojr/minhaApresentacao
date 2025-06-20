@@ -3,6 +3,7 @@ import './Presentation.css'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useLayoutEffect } from 'react'
+import { useState } from 'react'
 
 function Presentation() {
     useLayoutEffect(() => {
@@ -24,17 +25,23 @@ function Presentation() {
         }
     }, []);
 
+    const [menuOpen, setMenuOpen] = useState(false);
     return (
         <>
-            <div className='menu'>
-                <ul className='menuItems'>
+            <button className='Hamburger ' onClick={() => setMenuOpen(!menuOpen)}>
+                 <div className={`menuItems ${menuOpen ? 'open' : ''}`}>
+                    <span></span>
+                    </div>
+            </button>
+                    <ul className={`menu ${menuOpen ? 'open' : ''}`}>
                     <li><a href="#inicio">Ínicio</a></li>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#habilidades">Habilidades</a></li>
                     <li><a href="#projetos">Projetos</a></li>
                     <li><a href="#contato">Contato</a></li>
+                    
                 </ul>
-            </div>
+            
             <div className="buttonsAcess">
                 <button className='buttonProject'><li><a href="#projetos">Projetos</a></li></button>
                 <button className="buttonContact">
@@ -52,6 +59,7 @@ function Presentation() {
                 <h1 className='tituloSobre'>Sobre Mim</h1>
                 <h2 className='tituloApresentacao'>Sou formado em Análise e desenvolvimento de sistemas pela Wyden, estou cursando Inglês para acrescentar no meu desenvolvimento pessoal e profissional. 🚀
                 </h2>
+                
             </div>
         </>
     )
