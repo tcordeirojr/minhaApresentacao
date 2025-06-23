@@ -13,6 +13,7 @@ import { register } from 'swiper/element/bundle'
   import 'swiper/css/navigation';
   import 'swiper/css/pagination';
   import 'swiper/css/effect-coverflow';
+import Menu from './components/menu/menu'
   
 
 
@@ -20,12 +21,13 @@ import { register } from 'swiper/element/bundle'
 function App() {
   return (
     <>
-    <Presentation/>
+    <Menu/>
+    {/* <Presentation/>
     <Social/>
     <Projetos/>
     <Habilidades/>
     <Contato/>
-    <Footer/>
+    <Footer/> */}
     </>
   )
 }
