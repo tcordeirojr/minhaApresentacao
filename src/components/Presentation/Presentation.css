@@ -2,6 +2,91 @@
 
 
 
-@media screen and (max-width: 768px) {
-    
+@media (max-width: 768px) and (min-width: 320px) {
+    .textoPrincipal {
+        display: flex;
+        max-width: 728px;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        
+        top: 30px;
+        left: 25px;
+        font-family: 'Ibm Plex Mono', sans-serif;
+    }
+    .tituloPrincipal {
+        display: flex;
+        position: relative;
+        font-size: 40px;
+        font-weight: lighter;
+        color: #ffffff88;
+        bottom: 10px;
+        text-align: center;
+        font-family: 'Ibm Plex Mono', sans-serif;
+    }
+    .subTituloPrincipal{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        position: relative;
+        font-size: 15px;
+        font-weight: normal;
+        color: #ffffff88;
+        bottom: 60px;
+
+        text-align: center;
+        font-family: 'Ibm Plex Mono', sans-serif;
+    }
+    .buttonsAcess{
+        display: flex;
+        position: relative;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        top: 200px;
+        left: 25px;
+        list-style: none;
+    }
+    .buttonsAcess li {
+        display: flex;
+        padding: 5px 10px;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff88;
+        font-family: 'Ibm Plex Mono', sans-serif;
+        border-radius: 5px;
+        
+    }
+    .buttonsAcess li:hover {
+        background-color: #ffffff22;
+        transition: 0.3s;
+    }
+    .buttonsAcess a {
+        text-decoration: none;
+        color: inherit;
+    }
+    .textoApresentacao {
+        display: flex;
+        max-width: 748px;
+        position: relative;
+        flex-direction: column;
+        font-size: 10px;
+        color: #ffffff88;
+        font-family: 'Ibm Plex Mono', sans-serif;
+        text-align: center;
+        top: 100px;
+        left: 25px;
+    }
+    .tituloSobre{
+        display: flex;
+        position: relative;
+        font-size: 30px;
+        font-weight: 100;
+        color: #ffffff88;
+        bottom: 10px;
+        text-align: center;
+        font-family: 'Ibm Plex Mono', sans-serif;
+    }
 }

@@ -54,7 +54,7 @@ body {
     body{
        display: flex;
        margin: 0;
-       max-width:768px;
+       max-width:738px;
        min-width: 320px;
        font-family: 'Ibm ', sans-serif;
     }
@@ -62,7 +62,7 @@ body {
   .navbar {
     display: flex;
     position: relative;
-    max-width:758px;
+    max-width:748px;
     min-width: 320px;
     top: 80;
     padding: 10px;
@@ -82,7 +82,7 @@ body {
     right: 20px;
     background-color: #444;
     border-radius: 8px;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .nav-links.active {
@@ -96,16 +96,16 @@ body {
 }
 .nav {
     display: flex;
-    max-width:80vw ;
+    max-width:748px;
     background-color: #0a0a0a77;
-    padding: 10px;
+    
     justify-content: space-between;
     left: 0;
     position: relative;
  }
  .navbar {
     display: flex;
-    max-width: 768px;
+    max-width: 748px;
     min-width: 320px;
     position: relative;
     left: 0px;

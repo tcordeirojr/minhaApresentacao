@@ -22,8 +22,8 @@ function App() {
   return (
     <>
     <Menu/>
-    {/* <Presentation/>
-    <Social/>
+    <Presentation/>
+    {/* <Social/>
     <Projetos/>
     <Habilidades/>
     <Contato/>
